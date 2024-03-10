@@ -4,5 +4,5 @@ from app.commands import Command
 
 class thankyouCommand(Command):
     def execute(self):
-        logging.info("Hello, World!")
+        logging.info("Thank You")
         print("Thank you for running the commands!")
