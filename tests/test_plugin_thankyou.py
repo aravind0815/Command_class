@@ -17,4 +17,4 @@ def test_app_hello_command(capfd, monkeypatch):
     out, err = capfd.readouterr()
     
     # Assert that 'Hi, How do you do' was printed to stdout
-    assert "Hello, Thank you for taking this course" in out, "The 'thankyou' command did not produce the expected output."
+    assert "Thank you for running the commands!" in out, "The 'thankyou' command did not produce the expected output."
